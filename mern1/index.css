@@ -1,0 +1,65 @@
+html, body {
+    margin: 0; /* Remove default margins */
+     /* Remove default padding */
+    width: 100%; /* Set width to 100% */
+    height: 100%; /* Set height to 100% */
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #FFCD9E;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 10px; Remove unnecessary side margins */
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    /* padding: 20px 0px; */
+    font-size: 25px;
+  }
+  
+  .item3 { grid-area: 1 / 1 / 2 / 2; }
+  .item4 { padding:90px 50px 10px 10px; grid-area: 1 / 2 / 2 / 3; }
+  .item5 { padding: 10px 70px ;
+    grid-area: 2 / 1 / 3 / 2; background-color: rgb(41, 41, 41); color: white; }
+  .item6 { padding: 12px 70px ;
+    grid-area: 2 / 2 / 3 / 3; background-color: rgb(41, 41, 41); color: white; }
+  
+  .button {
+    padding: 7px;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+  }
+  
+ 
+  
+  
+  .pa2 {
+    text-align: left;
+    padding: 10px 10px 10px 80px;
+  }
+  
+  .first {
+    text-align: left;
+    
+    padding: 100px; /* Remove unnecessary side padding */
+  }
+  
+  .pa3 {
+    text-align: right;
+    padding: 10px 10px 10px 50px;
+  }
+  
+  .belowemail {
+    color: white;
+    font-size: small;
+  }
+  .ty{
+    font-size: 35px ;
+    padding: 0px 0px 30px 0px;
+  }
+  
